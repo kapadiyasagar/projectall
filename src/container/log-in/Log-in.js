@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from 'reactstrap';
+import{Alert} from'reactstrap';
 
 function Login(props) {
     return (
@@ -8,7 +10,16 @@ function Login(props) {
             >
                 Click Me
             </Button>
+            
+<div>
+  <Alert
+    color="primary"
+  >
+    Hey! Pay attention.
+  </Alert>
+</div>
         </div>
+        
     );
 }
 

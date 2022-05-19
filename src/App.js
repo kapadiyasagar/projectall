@@ -8,6 +8,7 @@ import Departmant from './container/Departmant/Departmant';
 import About from './container/About/About';
 import Contact from './container/Contact/Contact';
 import Doctor from './container/Doctor/Doctor';
+import Login from './container/log-in/Log-in';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Route exact path={"/doctors"} component={Doctor}/>
     <Route exact path={"/about"} component={About}/>
     <Route exact path={"/contact"} component={Contact}/>
+    <Route exact path={"/login"} component={Login}/>
     
 
   </Switch>
