@@ -1,5 +1,7 @@
+
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+
 
 function Header(props) {
     return (
@@ -57,12 +59,15 @@ function Header(props) {
                             </ul>
                             <i className="bi bi-list mobile-nav-toggle" />
                         </nav>
-                        <a href="./pages/appointment.html" className="appointment-btn scrollto"><span className="d-none d-md-inline">Make an</span>
-                            Appointment</a>
-                        <a href="#" className="appointment-btn scrollto">
-                            {/* <span className="d-none d-md-inline">Login/ Signup</span> */}
-                            <NavLink exact to={"/login"} className="nav-link scrollto">Login/ Signup</NavLink>
-                        </a>
+                        {/* <a href="./pages/appointment.html" className="appointment-btn scrollto">   Appointment</a> */}
+                            {/* <span className="d-none d-md-inline">Make an</span> */}
+                         
+                            <NavLink exact to={"/appointment"} className=" appointment-btn nav-link scrollto">Appointment</NavLink>
+
+                        {/* <span className="d-none d-md-inline">Login/ Signup</span> */}
+
+                        <NavLink exact to={"/login"} className=" appointment-btn nav-link scrollto">Login/ Signup</NavLink>
+
                     </div>
                 </header>
             </div>
