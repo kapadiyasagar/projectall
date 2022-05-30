@@ -1,6 +1,12 @@
 import React from 'react';
+import Medicine from '../../component/Medicine/Medicine';
 
 function Doctor(props) {
+
+
+
+
+
     return (
         <div>
             <main id="main">
@@ -78,6 +84,8 @@ function Doctor(props) {
                                 </div>
                             </div>
                         </div>
+
+        
                     </div>
                 </section>
             </main>
